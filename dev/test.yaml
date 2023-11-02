@@ -24,7 +24,7 @@ spec:
   containers:
   - image: hashicorp/http-echo
     name: pod
-    args: ["-text","version1"]
+    args: ["-text","version2"]
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Always
